@@ -12,6 +12,7 @@ namespace XamarinFormsDotNetStandard
 		public MainPage()
 		{
 			InitializeComponent();
+			Navigation.PushAsync(new Views.Page2());
 		}
 	}
 }
